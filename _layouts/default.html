@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>{{ page.title }}</title>
+	<meta name="description" content="">
+	<meta name="author" content="Liberate the Web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+	<script src="/js/jquery-1.8.3.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body> 
+<div class="navbar navbar-fixed-top">
+   <div class="navbar-inner">
+     <div class="container">
+       <div class="nav-collapse collapse" id="main-menu">
+        <a class="brand" href="/">NoZapret.org</a>
+        <ul class="nav" id="main-menu-left">
+          <li><a href="/#why">Почему?</a></li>
+          <li><a href="/#history">История цензуры</a></li>
+          <li><a href="/#lobby">Лоббисты</a></li>
+          <li><a href="/#bypass">Обход цензуры</a></li>
+        </ul>
+		<ul class="pull-right nav">
+          <li><a href="/ext">Расширение</a></li>
+          <li><a href="http://anonhandbook.org">Книга</a></li>
+		</ul>
+       </div>
+     </div>
+   </div>
+ </div>
+<div class="container">
+  {{ content }}
+	<footer>
+		<p><a href="https://creativecommons.org/licenses/by/3.0/" rel="license" target="_blank">Creative Commons Attribution 3.0</a></p>
+    <p><a href="http://liberatetheweb.org" target="_blank">Liberate the Web</a></p>
+  </footer>
+</div>
+</body>
+</html>
